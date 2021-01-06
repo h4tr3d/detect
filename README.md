@@ -9,7 +9,7 @@ package main
 import (
         "fmt"
 
-        "github.com/mvader/detect"
+        "github.com/h4tr3d/detect"
 )
 
 func main() {
