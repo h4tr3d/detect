@@ -30,7 +30,7 @@ func contains(haystack, needle string) bool {
 // Platform returns the platform of the device with the given User-Agent.
 func Platform(userAgent string) PlatformType {
 	var (
-		ua       = useragent.New(userAgent)
+		ua       = user_agent.New(userAgent)
 		os       = strings.ToLower(ua.OS())
 		platform = strings.ToLower(ua.Platform())
 	)
