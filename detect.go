@@ -3,7 +3,7 @@ package detect
 import (
 	"strings"
 
-	"github.com/mvader/useragent"
+	"github.com/mssola/user_agent"
 )
 
 func isiOS(os, platform string) bool {
